@@ -293,7 +293,9 @@ public class CourseTab extends Tab{
             controller.handleChangeEx();
         });
         
-        
+        select.setOnAction(e->{
+            controller.handleSelectTemplate();
+        });
         
       
         this.setContent(sp);

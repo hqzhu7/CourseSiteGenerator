@@ -189,4 +189,19 @@ public class CourseController {
         gui.getFileController().markAsEdited(gui);
     }
 
+    public void handleSelectTemplate() {
+       DirectoryChooser dc = new DirectoryChooser();
+       File selectedDir = dc.showDialog(app.getGUI().getWindow());
+       Workspace workspace = (Workspace) app.getWorkspaceComponent();
+        CourseTab ct = workspace.getCourseTab();
+        
+       if(selectedDir != null){
+           System.out.println(selectedDir.toString());
+           if(new File(selectedDir+"\\index.html").exists())
+           {System.out.println("dsfs");
+            ct.getTemplateList().get(0).setChecked(Boolean.TRUE);
+           }
+       }
+    }
+
 }
