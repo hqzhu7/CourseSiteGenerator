@@ -1,0 +1,45 @@
+
+{
+    "subject":"AMS",
+    "semester":"FALL",
+    "number":"219",
+    "year":"2017",
+    "title":"fdg",
+    "name":"sdf",
+    "home":"sadf",
+    "startHour":"0",
+    "endHour":"24",
+    "undergrad_tas":[
+    ],
+    "grad_tas":[
+    ],
+    "officeHours":[
+    ],
+    "recitation":[
+    ],
+    "startingMondayMonth":"1",
+    "startingMondayDay":"1",
+    "endingFridayMonth":"12",
+    "endingFridayDay":"31",
+    "holidays":[
+    ],
+    "lectures":[
+    ],
+    "references":[
+    ],
+    "recitations":[
+    ],
+    "hws":[
+    ],
+    "teams":[
+    ],
+    "students":[
+    ],
+    "work":[
+        {
+            "semester":"",
+            "projects":[
+            ]
+        }
+    ]
+}

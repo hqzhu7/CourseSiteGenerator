@@ -1,0 +1,202 @@
+
+{
+    "subject":"AMS",
+    "semester":"FALL",
+    "number":"220",
+    "year":"2018",
+    "title":"computer science",
+    "name":"mckenna",
+    "home":"www.google.com",
+    "startHour":"0",
+    "endHour":"24",
+    "undergrad_tas":[
+        {
+            "name":"hq",
+            "email":"hq.zhu@outlook.com",
+            "undergraduate":true
+        }
+    ],
+    "grad_tas":[
+        {
+            "name":"sfdas",
+            "email":"hq.zhsdfu@outlook.com",
+            "undergraduate":false
+        }
+    ],
+    "officeHours":[
+        {
+            "day":"MONDAY",
+            "time":"7_00am",
+            "name":"Hsiang-Ju Lai"
+        }
+    ],
+    "recitation":[
+        {
+            "section":"R02(McKenna)",
+            "day_time":"Mondays, 3:30-4:23pm",
+            "location":"Old Computer Science 2114",
+            "ta_1":"hq",
+            "ta_2":"sfdas"
+        },
+        {
+            "section":"R01(McKenna)",
+            "day_time":"Mondays, 3:30-4:23pm",
+            "location":"Old Computer Science 2114",
+            "ta_1":"hq",
+            "ta_2":"sfdas"
+        }
+    ],
+    "startingMondayMonth":"01",
+    "startingMondayDay":"23",
+    "endingFridayMonth":"05",
+    "endingFridayDay":"19",
+    "holidays":[
+        {
+            "month":"2",
+            "day":"9",
+            "title":"snowday",
+            "link":"www.funnny?"
+        }
+    ],
+    "lectures":[
+        {
+            "month":"1",
+            "day":"24",
+            "title":"lectures1",
+            "topic":"javascript",
+            "link":"www.google.com"
+        }
+    ],
+    "references":[
+        {
+            "month":"2",
+            "day":"14",
+            "title":"reference",
+            "topic":"javafx",
+            "link":"www.google.com"
+        }
+    ],
+    "recitations":[
+        {
+            "month":"1",
+            "day":"30",
+            "title":"rectition1",
+            "topic":"netbean"
+        }
+    ],
+    "hws":[
+        {
+            "month":"2",
+            "day":"22",
+            "title":"hw1",
+            "topic":"javafx",
+            "link":"www.google.com",
+            "time":"11:59pm",
+            "criteria":"ht tps://docs.google.com/spreadsheets/d"
+        },
+        {
+            "month":"5",
+            "day":"17",
+            "title":"sad",
+            "topic":"fsdf",
+            "link":"sdf",
+            "time":"sadf",
+            "criteria":"sadfsadf"
+        }
+    ],
+    "teams":[
+        {
+            "name":"Aqua",
+            "red":"204",
+            "green":"51",
+            "blue":"51",
+            "text_color":"black",
+            "link":"www.google.com"
+        },
+        {
+            "name":"c4",
+            "red":"128",
+            "green":"77",
+            "blue":"77",
+            "text_color":"4d3399",
+            "link":"sdfsa"
+        }
+    ],
+    "students":[
+        {
+            "lastName":"rahul",
+            "firstName":"verma",
+            "team":"Aqua",
+            "role":"Data Designer"
+        },
+        {
+            "lastName":"sfd",
+            "firstName":"sf",
+            "team":"Aqua",
+            "role":"Lead Designer"
+        },
+        {
+            "lastName":"sdgd",
+            "firstName":"dsf",
+            "team":"Aqua",
+            "role":"Project Manager"
+        },
+        {
+            "lastName":"sdf",
+            "firstName":"sdf",
+            "team":"c4",
+            "role":"Data Designer"
+        },
+        {
+            "lastName":"sdf",
+            "firstName":"sdfkk",
+            "team":"c4",
+            "role":"Project Manager"
+        },
+        {
+            "lastName":"yhyh",
+            "firstName":"yhyhyh",
+            "team":"c4",
+            "role":"Lead Programmer"
+        },
+        {
+            "lastName":"sdf",
+            "firstName":"sdfsadf",
+            "team":"c4",
+            "role":"Lead Designer"
+        },
+        {
+            "lastName":"rahul",
+            "firstName":"132",
+            "team":"Aqua",
+            "role":"Lead Programmer"
+        }
+    ],
+    "work":[
+        {
+            "semester":"",
+            "projects":[
+                {
+                    "name":"Aqua",
+                    "students":[
+                        "verma rahul",
+                        "sf sfd",
+                        "dsf sdgd",
+                        "132 rahul"
+                    ],
+                    "link":"www.google.com"
+                },
+                {
+                    "name":"c4",
+                    "students":[
+                        "sdf sdf",
+                        "sdfkk sdf",
+                        "yhyhyh yhyh",
+                        "sdfsadf sdf"
+                    ],
+                    "link":"sdfsa"
+                }
+            ]
+        }
+    ]
+}

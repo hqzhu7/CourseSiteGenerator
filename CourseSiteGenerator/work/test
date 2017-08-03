@@ -1,0 +1,146 @@
+
+{
+    "subject":"cse",
+    "semester":"spring",
+    "number":"220",
+    "year":"2017",
+    "title":"computer science",
+    "name":"abc",
+    "home":"www.google.com",
+    "startHour":"0",
+    "endHour":"24",
+    "undergrad_tas":[
+        {
+            "name":"hq",
+            "email":"hq.zhu@outlook.com",
+            "undergraduate":true
+        }
+    ],
+    "officeHours":[
+        {
+            "day":"MONDAY",
+            "time":"1_00am",
+            "name":"hq"
+        },
+        {
+            "day":"MONDAY",
+            "time":"7_00am",
+            "name":"Hsiang-Ju Lai"
+        }
+    ],
+    "recitation":[
+        {
+            "section":"R02(McKenna)",
+            "day_time":"Mondays, 3:30-4:23pm",
+            "location":"Old Computer Science 2114",
+            "ta_1":"Joe Shmo",
+            "ta_2":"Jane Doe"
+        },
+        {
+            "section":"R02(McKenna)",
+            "day_time":"Mondays, 3:30-4:23pm",
+            "location":"Old Computer Science 2114",
+            "ta_1":"Joe Shmo",
+            "ta_2":"Jane Doe"
+        },
+        {
+            "section":"R02(McKenna)",
+            "day_time":"Mondays, 3:30-4:23pm",
+            "location":"Old Computer Science 2114",
+            "ta_1":"Joe Shmo",
+            "ta_2":"Jane Doe"
+        }
+    ],
+    "startingMondayMonth":"1",
+    "startingMondayDay":"23",
+    "endingFridayMonth":"5",
+    "endingFriday":"19",
+    "holidays":[
+        {
+            "month":"2",
+            "day":"9",
+            "title":"snowday",
+            "link":"www.funnny?"
+        }
+    ],
+    "lectures":[
+        {
+            "month":"1",
+            "day":"24",
+            "title":"lectures1",
+            "topic":"javascript",
+            "link":"www.google.com"
+        }
+    ],
+    "references":[
+        {
+            "month":"2",
+            "day":"14",
+            "title":"reference",
+            "topic":"javafx",
+            "link":"www.google.com"
+        }
+    ],
+    "recitations":[
+        {
+            "month":"1",
+            "day":"30",
+            "title":"rectition1",
+            "topic":"netbean"
+        }
+    ],
+    "hws":[
+        {
+            "month":"2",
+            "day":"22",
+            "title":"hw1",
+            "topic":"javafx",
+            "link":"www.google.com",
+            "time":"11:59pm",
+            "criteria":"ht tps://docs.google.com/spreadsheets/d"
+        }
+    ],
+    "teams":[
+        {
+            "name":"Aqua",
+            "red":"12",
+            "green":"34",
+            "blue":"56",
+            "text_color":"black",
+            "link":"www.google.com"
+        }
+    ],
+    "students":[
+        {
+            "lastName":"verma",
+            "firstName":"rahul",
+            "team":"Aqua",
+            "role":"Data Designer"
+        },
+        {
+            "lastName":"sf",
+            "firstName":"sfd",
+            "team":"Aqua",
+            "role":"Lead Designer"
+        },
+        {
+            "lastName":"dsf",
+            "firstName":"sdgd",
+            "team":"Aqua",
+            "role":"Project Manager"
+        },
+        {
+            "lastName":"132",
+            "firstName":"rahul",
+            "team":"Aqua",
+            "role":"Lead Programmer"
+        }
+    ],
+    "work":[
+        {
+            "semester":"",
+            "projects":[
+            ]
+        }
+    ]
+}

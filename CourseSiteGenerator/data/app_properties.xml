@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this properties file is only
+    for the standard controls for an app from the Desktop Java Framework, so
+    it would not include things initialized for the workspace, which is
+    customizable.
+-->
+<properties>
+    <property_list>
+        <property name="APP_TITLE"	    value="Course Site Generator"></property>
+	<property name="APP_LOGO"	    value="TAManagerLogo.png"></property>
+	<property name="APP_PATH_CSS"	    value="style/"></property>
+	<property name="APP_CSS"	    value="tam_style.css"></property>
+        
+        <!-- 5 tabs -->
+        <property name="TA_TAB"	    value="TA Data"></property>
+        
+        <!-- PROGRAM ICON FILES -->
+        <property name="NEW_ICON"	    value="New.png"></property>
+        <property name="LOAD_ICON"	    value="Load.png"></property>
+        <property name="SAVE_ICON"	    value="Save.png"></property>
+        <property name="EXIT_ICON"      value="Exit.png"></property>
+        <property name="UNDO_ICON"      value="undo.png"></property>
+        <property name="REDO_ICON"      value="redo.png"></property>
+        <property name="ABOUT_ICON"      value="about.png"></property>
+		<property name="SAVE_AS_ICON"   value="SaveAs.png"></property>
+		<property name= "EXPORT_ICON"   value="Export.png"></property>
+                <property name= "UNDO"   value="Undo"></property>
+                <property name= "REDO"   value="Redo"></property>
+                <property name= "ABOUT"   value="About"></property>
+                 <property name= "ADD_ICON"   value="Add.png"></property>
+                  <property name= "DEL_ICON"   value="Remove.png"></property>
+                   <property name= "EDIT_ICON"   value="edit.png"></property>
+        
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="NEW_TOOLTIP"		value="Build a new site"></property>
+        <property name="LOAD_TOOLTIP"		value="Load an existing site"></property>
+        <property name="SAVE_TOOLTIP"		value="Save the current site"></property>
+        <property name="EXIT_TOOLTIP"		value="Exit the Application"></property>
+        <property name="SAVE_AS_TOOLTIP"    value="SAVE AS!!"></property>
+        <property name="STARTTIMElABEL"    value="Start Time:"></property>
+        <property name="ENDTIMElABEL"    value="End Time:"></property>
+		<property name="EXPORT_TOOLTIP"     value="export"></property>
+        <!-- ERROR MESSAGES -->
+        <property name="CLOSE_BUTTON_TEXT"              value="Close"></property>
+
+        <property name="NEW_ERROR_MESSAGE"              value="An error occured creating New work."></property>
+        <property name="NEW_ERROR_TITLE"		value="New Work Error"></property>
+        <property name="LOAD_ERROR_MESSAGE"             value="An error occured loading work."></property>
+        <property name="LOAD_ERROR_TITLE"		value="Load Work Error"></property>
+        <property name="SAVE_ERROR_MESSAGE"             value="An error occured saving work."></property>
+        <property name="SAVE_ERROR_TITLE"		value="Save Work Error"></property>
+        <property name="PROPERTIES_LOAD_ERROR_MESSAGE"	value="An error occured loading a properties file."></property>	
+        <property name="PROPERTIES_LOAD_ERROR_TITLE"	value="Properties File Loading Error"></property>
+	
+        <!-- VERIFICATION MESSAGES -->
+	<property name="INVALID_EMAIL"		value="Invalid Email"></property>
+	
+	<property name="TIME_EXIST"  		value="There are time slots that will be deleted, proceed?"></property>
+	<property name="TIME_EXIST_TITLE"   value="Time slot exists"></property>
+	<property name="TIME_CONF"			value="The startHour must be before EndHour"></property>
+	<property name="TIME_CONF_TITLE"    value="Time conflict"></property>
+        <property name="NEW_COMPLETED_MESSAGE"		value="New Work Ready for Editing"></property>
+        <property name="NEW_COMPLETED_TITLE"		value="New Work Created"></property>
+        <property name="LOAD_COMPLETED_MESSAGE"		value="File Loading Completed and ready for editing"></property>
+        <property name="LOAD_COMPLETED_TITLE"		value="Loading Completed"></property>
+        <property name="SAVE_COMPLETED_MESSAGE"		value="File Saving Completed"></property>
+        <property name="SAVE_COMPLETED_TITLE"		value="Saving Completed"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"	value="Would you like to save your unsaved work first?"></property>
+        <property name="SAVE_UNSAVED_WORK_TITLE"	value="Save unsaved work?"></property>
+	
+        <property name="NEW_CREATED_MESSAGE"		value="New Work Created but not yet Saved"></property>
+        <property name="WORK_LOADED_MESSAGE"		value="The Work has been Loaded"></property>
+        <property name="WORK_SAVED_MESSAGE"		value="The Work has been Saved"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"	value="Do you want to save your unsaved work first?"></property>
+	<property name="SAVE_WORK_TITLE"		value="Save your work"></property>
+	<property name="LOAD_WORK_TITLE"		value="Select work file to load"></property>
+	<property name="EXPORT_WORK_TITLE"      value="Select location to export"></property>
+	<property name="WORK_FILE_EXT"			value=".json"></property>
+	<property name="WORK_FILE_EXT_DESC"		value="TA Office Hours"></property>
+
+        <!-- WORKSPACE CONTROLS STUFF -->        
+        <property name="TAS_HEADER_TEXT"                value="Teaching Assistants"></property>
+        <property name="NAME_COLUMN_TEXT"               value="Name"></property>
+        <property name="EMAIL_COLUMN_TEXT"              value="Email"></property>
+        <property name="NAME_PROMPT_TEXT"               value="Name"></property>
+        <property name="EMAIL_PROMPT_TEXT"              value="Email"></property>
+        <property name="ADD_BUTTON_TEXT"                value="Add TA"></property>
+        <property name="OFFICE_HOURS_SUBHEADER"         value="Office Hours Grid"></property>
+        
+        <!-- WORKSPACE ERROR MESSAGES -->
+        <property name="MISSING_TA_NAME_TITLE"          value="Missing TA Name"></property>
+        <property name="MISSING_TA_NAME_MESSAGE"        value="You must provide a TA Name"></property>
+        <property name="MISSING_TA_EMAIL_TITLE"         value="Missing TA Email"></property>
+        <property name="MISSING_TA_EMAIL_MESSAGE"       value="You must provide a TA Email"></property>
+        <property name="TA_NAME_AND_EMAIL_NOT_UNIQUE_TITLE"     value="TA Name and Email Not Unique"></property>
+        <property name="TA_NAME_AND_EMAIL_NOT_UNIQUE_MESSAGE"   value="You must provide a unique TA Name and Email"></property>
+        
+        <!-- COURSE TAB CONTROLS -->
+        <property name="COURSETAB"          value="Course Info"></property>
+        <property name="COURSEINFO"          value="CourseInfo"></property>
+        <property name="SUBJECT"          value="Subject"></property>
+        <property name="NUMBER"          value="Number"></property>
+        <property name="SEMESTER"          value="Semester"></property>
+        <property name="YEAR"          value="Year"></property>
+        <property name="TITLE"          value="Title"></property>
+        <property name="NAME"          value="Instructor Name"></property>
+        <property name="HOME"          value="Instructor Home"></property>
+        <property name="EXPORTDIR"          value="Export Dir"></property>
+        <property name="CHANGE"          value="Change"></property>
+        
+        <property name="SITETEMP"          value="Site Template"></property>
+        <property name="USETIP"          value="The selected directory should contain the full size timplate, including the HTML files."></property>
+       
+        <property name="SELECT"          value="Select Template Directory"></property>
+        <property name="SITEPAGE"          value="Site Pages:"></property>
+        <property name="USECOL"          value="Use"></property>
+        <property name="NAVBARCOL"          value="Navbar Title"></property>
+        <property name="FILENAMECOL"          value="File Name"></property>
+        <property name="SCRIPTCOL"          value="Script"></property>
+        
+        <property name="PAGESTYLE"          value="Page Style"></property>
+        <property name="SCHOOL"          value="Banner School Image:"></property>
+        <property name="LEFTFOOTER"          value="Left Footer Image:"></property>
+        <property name="RIGHTFOOTER"          value="Right Footer Image:"></property>
+        <property name="STYLESHEET"          value="Stylesheet:"></property>
+        <property name="NOTEPAGESTYLE"          value="NOTE: New stylesheets may be placed in work/css to be selectable"></property>
+        
+        <!-- RECITATION TAB CONTROLS -->
+        <property name="RECITATIONTAB"          value="Recitation Data"></property>
+        <property name="RECITITLE"          value="Recitations"></property>
+        <property name="SECTIONCOL"          value="Section"></property>
+        <property name="INSTCOL"          value="Instructor"></property>
+        <property name="DAYTIMECOL"          value="Day/Time"></property>
+        <property name="LOCCOL"          value="Location"></property>
+        <property name="TACOL12"          value="TA"></property>
+        <property name="TA12"          value="Supervising TA"></property>
+        <property name="ADDUPDATE"          value="  Add  "></property>
+        <property name="ADDEDIT"          value="Add/Edit"></property>
+        <property name="CLEAR"          value="Clear"></property>
+        <property name="GRADUATE"          value="Undergrad"></property>
+        <property name="MISSING"          value="Missing information"></property>
+        <property name="DELBUTTON"          value="DEL"></property>
+        
+        <!-- SCHEDULE TAB CONTROLS -->
+        <property name="SCHEDULTAB"          value="Schedule Data"></property>
+        <property name="SCHEDULETITLE"          value="Schedule"></property>
+        <property name="CALENDARBOUN"          value="Calendar Boundaries"></property>
+        <property name="START"          value="Starting Monday"></property>
+        <property name="END"          value="Ending Friday"></property>
+        <property name="TYPECOL"          value="Type"></property>
+        <property name="DATECOL"          value="Date"></property>
+        <property name="TITLECOL"          value="Title"></property>
+        <property name="TOPICCOL"          value="Topic"></property>
+        <property name="TIME"          value="Time"></property>
+        <property name="LINK"          value="Link"></property>
+        <property name="CRITERIA"          value="Criteria"></property>
+        <property name="SCHEDULEITEM"          value="Schedule Items"></property>
+        
+        <!-- SCHEDULE TAB CONTROLS -->
+        <property name="PROJECTTITLE"          value="Projects"></property>
+        <property name="PROJECTDATA"          value="Project Data"></property>
+        <property name="TEAMTITLE"          value="Teams"></property>
+        <property name="NAMECOL"          value="Name"></property>
+        <property name="COLORCOL"          value="Color(hex#)"></property>
+        <property name="TEXTCOLORCOL"          value="Text Color(hex#)"></property>
+        <property name="LINKCOL"          value="Link"></property>
+        <property name="COLOR"          value="Color"></property>
+        <property name="TEXTCOLOR"          value="TextColor"></property>
+        <property name="STUTITLE"          value="Students"></property>
+        <property name="FIRSTCOL"          value="First Name"></property>
+        <property name="LASTCOL"          value="Last Name"></property>
+        <property name="TEAMCOL"          value="Team"></property>
+        <property name="ROLECOL"          value="Role"></property>
+
+        
+
+    </property_list>
+    <property_options_list>
+        <property_options name="OFFICE_HOURS_TABLE_HEADERS">
+            <option>Start Time</option>
+            <option>End Time</option>
+        </property_options>
+        <property_options name="DAYS_OF_WEEK">
+            <option>MONDAY</option>
+            <option>TUESDAY</option>
+            <option>WEDNESDAY</option>
+            <option>THURSDAY</option>
+            <option>FRIDAY</option>
+        </property_options>
+    </property_options_list>
+</properties>

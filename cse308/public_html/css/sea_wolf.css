@@ -1,0 +1,118 @@
+@import url( http://fonts.googleapis.com/css?family=Alegreya+Sans );
+body {
+	font-family: "Alegreya Sans", sans-serif; background-color: rgb(118, 143, 165);
+}
+td.course_num {
+	font-family: monospace;
+}
+p {
+	font-size: 13pt;
+}
+li {
+	font-size: 13pt;
+}
+td {
+	font-size: 13pt;
+}
+th {
+	font-size: 13pt;
+}
+h1 {
+	color: rgb(0, 51, 153);
+}
+h2 {
+	color: rgb(0, 51, 153);
+}
+h3 {
+	color: rgb(0, 51, 153);
+}
+h4 {
+	color: rgb(0, 51, 153);
+}
+h5 {
+	color: rgb(0, 51, 153);
+}
+h6 {
+	color: rgb(0, 51, 153);
+}
+#navbar {
+	margin-top: 5px; background-color: rgb(102, 0, 0);
+}
+#banner {
+	color: rgb(255, 255, 255); font-size: 24pt; background-color: rgb(153, 0, 0);
+}
+#desc {
+	color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+a.nav {
+	color: rgb(255, 255, 255); font-size: 12pt; font-weight: normal;
+}
+a.open_nav {
+	color: rgb(255, 255, 255); font-size: 18pt; font-weight: bold;
+}
+hr {
+	color: rgb(17, 17, 85);
+}
+a.open_nav:hover {
+	
+}
+a.nav:hover {
+	color: rgb(118, 143, 165);
+}
+a:hover {
+	color: rgb(118, 143, 165);
+}
+a {
+	color: rgb(0, 102, 51); font-weight: bold; text-decoration: none;
+}
+span {
+	color: rgb(136, 136, 255); font-weight: bold;
+}
+span.reading {
+	color: rgb(0, 0, 0); font-weight: normal;
+}
+span.tutorial {
+	color: rgb(153, 0, 153); font-weight: normal;
+}
+span.hw {
+	color: rgb(153, 0, 0); font-weight: normal;
+}
+span.grading {
+	color: rgb(0, 119, 0); font-weight: normal;
+}
+td.highlight {
+	background-color: rgb(0, 255, 255);
+}
+table.hws {
+	border: 2px solid black; border-image: none; border-collapse: collapse;
+}
+th.hws {
+	padding-right: 80px;
+}
+td.hws {
+	padding-right: 80px;
+}
+.office_hours_schedule td {
+	height: 50px; text-align: center; font-weight: bold; background-color: rgb(227, 230, 235);
+}
+td.time {
+	color: black; background-color: rgb(174, 189, 99);
+}
+td.open {
+	background-color: rgb(200, 200, 200);
+}
+td.lecture {
+	background-color: rgb(103, 124, 151);
+}
+td.tas {
+	width: 260px;
+}
+td.not_available {
+	border-top-color: currentColor; border-bottom-color: currentColor; border-top-width: 0px; border-bottom-width: 0px; border-top-style: none; border-bottom-style: none; background-color: rgb(100, 100, 100);
+}
+.office_hours_schedule th {
+	background-color: rgb(180, 120, 180);
+}
+.email {
+	color: black; font-size: 11pt; font-weight: normal;
+}

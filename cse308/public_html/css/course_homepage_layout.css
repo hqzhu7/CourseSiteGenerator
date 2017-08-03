@@ -1,0 +1,69 @@
+#content {
+	left: 10%; width: 80%; text-align: left; right: 10%; position: absolute;
+}
+#navbar {
+	top: 0px; width: 100%; height: 45px; position: absolute;
+}
+#banner {
+	top: 50px; width: 100%; height: 80px; text-align: center; padding-top: 10px; padding-bottom: 0px; margin-top: 0px; margin-bottom: 0px; position: absolute;
+}
+#desc {
+	top: 140px; width: 96%; padding-top: 0px; padding-right: 2%; padding-left: 2%; margin-top: 0px; position: absolute;
+}
+img.sbu_navbar {
+	float: right;
+}
+img.photo_floating_right {
+	padding-left: 20px; float: right;
+}
+img.photo_floating_left {
+	padding-right: 20px; float: left;
+}
+p.footer {
+	text-align: center; padding-top: 0px; font-size: 8pt;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+img.stonybrook {
+	padding-left: 10px; float: left; background-color: white;
+}
+img.cs {
+	padding-right: 10px; float: right;
+}
+img.start_up {
+	margin-right: 20px; margin-bottom: 5px; margin-left: 20px; float: right;
+}
+img.centered {
+	margin-right: 30%; margin-left: 30%;
+}
+a.nav {
+	border: currentColor; border-image: none; width: 80px; text-align: center; padding-top: 5px; padding-right: 20px; padding-left: 5px; font-weight: bold; text-decoration: none; display: inline-block;
+}
+a.open_nav {
+	border: currentColor; border-image: none; width: 80px; text-align: center; padding-top: 5px; padding-right: 20px; padding-left: 5px; font-weight: bold; text-decoration: none; display: inline-block;
+}
+p.contact_info {
+	padding-top: 0px; margin-top: 0px; margin-bottom: 0px;
+}
+td.course_name {
+	padding-right: 10px; padding-left: 10px;
+}
+img.logo_page {
+	width: 100%; height: auto; position: relative;
+}
+table {
+	border-color: rgb(85, 85, 85);
+}
+table.schedule {
+	margin: auto; width: 100%;
+}
+td.sch {
+	width: 20%; height: 150px; margin-right: 0%; margin-left: 0%; vertical-align: top; position: relative;
+}
+th.sch {
+	border-color: rgb(136, 136, 136); text-align: center; vertical-align: top;
+}
+td.holiday {
+	vertical-align: top; background-color: rgb(170, 170, 170);
+}
